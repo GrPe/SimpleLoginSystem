@@ -1,0 +1,35 @@
+﻿@model SecureLoginWebApp.Models.RegistrationUser
+
+<html>
+<head>
+    <title>Registration</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        <center>
+            <div>
+                <b>Login: </b>
+            </div>
+            <div>
+                @Html.EditorFor(model => model.Login)
+            </div>
+            <br />
+            <div>
+                <b>Password: </b>
+            </div>
+            <div>
+                @Html.PasswordFor(model=> model.Password)
+            </div>
+            <br />
+            <div>
+                <b>Repeat Password: </b>
+            </div>
+            <div>
+                @Html.PasswordFor(model => model.RePassword);
+            </div>
+            <input type="submit" value="Confirm" name="Confirm" />
+        </center>
+    }
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureLoginService", "SecureLoginService\SecureLoginService.csproj", "{1D1A7769-AE83-48EA-BA2B-DFCF0855D1FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureLoginServiceHost", "SecureLoginServiceHost\SecureLoginServiceHost.csproj", "{50777160-5E31-4A50-8C86-A2205C7FBF14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D1A7769-AE83-48EA-BA2B-DFCF0855D1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D1A7769-AE83-48EA-BA2B-DFCF0855D1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D1A7769-AE83-48EA-BA2B-DFCF0855D1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D1A7769-AE83-48EA-BA2B-DFCF0855D1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50777160-5E31-4A50-8C86-A2205C7FBF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50777160-5E31-4A50-8C86-A2205C7FBF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50777160-5E31-4A50-8C86-A2205C7FBF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50777160-5E31-4A50-8C86-A2205C7FBF14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06145181-15F3-44AF-A7BE-06DDA9C54FC4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿@model SecureLoginWebApp.SecureLoginService.User
+
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        <center>
+            <div>
+                <div class="editor-label">
+                    @Html.EditorFor(model=>model.Login)
+                </div>
+                <br/>
+                <div class="editor-label">
+                    @Html.PasswordFor(model => model.Password)
+                </div>
+                <br/>
+                <input type="submit" value="Log in" name="Login" />
+                <br/>
+                <br/>
+                <br/>
+                @Html.ActionLink("Utwórz nowe konto", "Index", "Registration");
+            </div>
+        </center>
+    }
+</body>
+</html>

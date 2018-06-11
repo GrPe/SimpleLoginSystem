@@ -1,0 +1,21 @@
+﻿@model SecureLoginWebApp.SecureLoginService.User
+
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        <center>
+            <div>
+                <h2>Hello @Model.Login</h2>
+                <br />
+                @Html.ActionLink("Wyloguj", "Login","Home")
+                <!--<input type="submit" value="Wyloguj" name="Logout" />-->
+            </div>
+        </center>
+    }
+</body>
+</html>
+
